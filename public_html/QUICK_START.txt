@@ -1,0 +1,109 @@
+╔══════════════════════════════════════════════════════════════╗
+║       RURAL TECH STORE - QUICK START GUIDE                  ║
+╚══════════════════════════════════════════════════════════════╝
+
+🎯 3-MINUTE DEPLOYMENT:
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1️⃣  Upload files to Hostinger:
+    → public_html folder: index.html, styles.css, script.js, thank-you.html
+    → Root folder (one level up): rts.jpeg
+
+2️⃣  Edit index.html (Find & Replace):
+    Replace: https://yourdomain.com/thank-you.html
+    With: https://YOURSITE.com/thank-you.html
+    (Do this in 3 places - one for each form)
+
+3️⃣  Test forms:
+    → Submit each form once
+    → Check ruraltechstore@gmail.com
+    → Click confirmation link (first time only)
+
+✅ DONE! Your site is live!
+
+
+📁 FILE STRUCTURE:
+━━━━━━━━━━━━━━━━━━
+
+    /                           (root)
+    └── rts.jpeg               ← Logo here!
+
+    /public_html/
+    ├── index.html             ← Main page
+    ├── styles.css             ← All styles
+    ├── script.js              ← Interactivity
+    └── thank-you.html         ← Success page
+
+
+📧 EMAIL FORMS:
+━━━━━━━━━━━━━━━━
+
+All forms send to: ruraltechstore@gmail.com
+
+✓ Contact Form       → Name, Email, Message
+✓ Affiliate Form     → Name, Email, Phone, Business, Message
+✓ Feedback Form      → Name, Email, Rating (⭐-⭐⭐⭐⭐⭐), Comments
+
+
+🎨 FEATURES INCLUDED:
+━━━━━━━━━━━━━━━━━━━━━
+
+✅ RTS Logo in hero section (circular, centered)
+✅ Header: "RURAL TECH STORE"
+✅ Subtitle: "Digital & Technical Services for Every Village"
+✅ 8 Partner logos (Amazon, Flipkart, Reliance, etc.)
+✅ 3 Working forms with email notifications
+✅ Fully responsive (mobile, tablet, desktop)
+✅ Orange, Blue, Cream color scheme
+✅ Smooth animations
+✅ Scroll to top button
+✅ Thank you page
+✅ Footer with copyright
+
+
+🔧 QUICK CUSTOMIZATION:
+━━━━━━━━━━━━━━━━━━━━━━
+
+Change Colors → Edit styles.css (lines 10-20)
+Change Email → Replace ruraltechstore@gmail.com in forms
+Add Services → Copy .service-card in index.html
+Update Text → Direct edit in index.html
+
+
+⚠️  COMMON ISSUES:
+━━━━━━━━━━━━━━━━━━
+
+❌ Logo not showing?
+   → Check rts.jpeg is in ROOT (not public_html)
+
+❌ Forms not sending?
+   → Confirm FormSubmit email (check spam)
+   → Verify internet connection
+
+❌ Page looks broken?
+   → Upload ALL files to public_html
+   → Check file names are correct (case-sensitive)
+
+
+📱 COMPATIBILITY:
+━━━━━━━━━━━━━━━━━
+
+✓ Chrome, Firefox, Safari, Edge
+✓ iPhone & Android
+✓ Tablets & Desktops
+✓ No frameworks needed
+✓ Pure HTML/CSS/JS
+
+
+🚀 THAT'S IT!
+━━━━━━━━━━━━━
+
+Your professional Rural Tech Store website is ready to go!
+
+Questions? → ruraltechstore@gmail.com
+
+═══════════════════════════════════════════════════════════════
+
+© 2025 Rural Tech Store | Empowering Rural India Digitally 🌾
+
+═══════════════════════════════════════════════════════════════

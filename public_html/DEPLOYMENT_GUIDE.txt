@@ -1,0 +1,158 @@
+═══════════════════════════════════════════════════════════════════════
+  RURAL TECH STORE - DEPLOYMENT GUIDE FOR HOSTINGER
+═══════════════════════════════════════════════════════════════════════
+
+📦 WHAT'S INCLUDED:
+------------------
+✓ index.html         - Main website page
+✓ styles.css         - All styling (responsive, modern design)
+✓ script.js          - Interactive features and animations
+✓ thank-you.html     - Form submission success page
+✓ rts.jpeg           - Your logo image (in parent directory)
+✓ README.md          - Technical documentation
+
+🚀 STEP-BY-STEP DEPLOYMENT:
+---------------------------
+
+STEP 1: Access Hostinger File Manager
+--------------------------------------
+1. Login to your Hostinger control panel
+2. Go to "Files" → "File Manager"
+3. Navigate to the "public_html" folder
+
+STEP 2: Upload Files
+--------------------
+OPTION A - Via File Manager:
+1. Click "Upload Files" button
+2. Select all files from the public_html folder:
+   - index.html
+   - styles.css
+   - script.js
+   - thank-you.html
+   - README.md
+3. Upload them to /public_html/
+
+OPTION B - Via FTP (FileZilla):
+1. Connect to your FTP server
+2. Navigate to public_html folder
+3. Drag and drop all files
+
+STEP 3: Upload Logo Image
+--------------------------
+1. Go back to the ROOT directory (one level up from public_html)
+2. Upload "rts.jpeg" to the root directory
+
+   Final structure:
+   /
+   ├── public_html/
+   │   ├── index.html
+   │   ├── styles.css
+   │   ├── script.js
+   │   ├── thank-you.html
+   │   └── README.md
+   └── rts.jpeg
+
+STEP 4: Configure Form Redirects
+---------------------------------
+1. Open index.html in the file editor
+2. Find THREE instances of this line:
+   <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+3. Replace "yourdomain.com" with YOUR actual domain
+   Example: https://ruraltechstore.com/thank-you.html
+
+STEP 5: Set File Permissions
+-----------------------------
+Recommended permissions:
+- Folders: 755
+- HTML/CSS/JS files: 644
+- Images: 644
+
+STEP 6: Test Your Website
+--------------------------
+1. Visit your domain in a browser
+2. Check if logo appears at the top
+3. Test all THREE forms:
+   ☐ Contact Form
+   ☐ Affiliate Join Form
+   ☐ Feedback Form
+4. Verify you receive emails at ruraltechstore@gmail.com
+5. Test on mobile device
+
+🎯 IMPORTANT NOTES:
+-------------------
+
+EMAIL SETUP:
+- First form submission will send a confirmation email to ruraltechstore@gmail.com
+- Click the confirmation link in that email
+- After confirmation, all forms will work automatically
+- Check spam folder if you don't see the confirmation email
+
+LOGO PATH:
+- The logo path in HTML is: ../rts.jpeg
+- This means: go UP one level (../) and find rts.jpeg
+- Make sure rts.jpeg is in the ROOT directory, NOT in public_html
+
+CUSTOM DOMAIN:
+- If using a custom domain, update the _next URLs in all forms
+- If using subdomain (subdomain.example.com), update accordingly
+
+📧 TROUBLESHOOTING:
+-------------------
+
+Problem: Logo doesn't appear
+Solution: Check rts.jpeg is in root directory (not public_html)
+          Verify file name is exactly "rts.jpeg" (case-sensitive)
+
+Problem: Forms not working
+Solution: 1. Check you confirmed the FormSubmit email
+          2. Verify email address is correct: ruraltechstore@gmail.com
+          3. Check browser console for errors (F12)
+
+Problem: Thank you page not loading
+Solution: Update _next URL in all three forms with your actual domain
+
+Problem: Website looks broken
+Solution: Ensure all files are uploaded to public_html
+          Check styles.css and script.js are in same folder as index.html
+
+📱 MOBILE TESTING:
+------------------
+Test on:
+☐ iPhone Safari
+☐ Android Chrome
+☐ Tablet
+☐ Desktop (different browsers)
+
+✅ CHECKLIST AFTER DEPLOYMENT:
+------------------------------
+☐ Website loads without errors
+☐ Logo appears correctly
+☐ All partner logos visible
+☐ Contact form sends email
+☐ Affiliate form sends email
+☐ Feedback form sends email
+☐ Star rating works in feedback form
+☐ Thank you page loads after submission
+☐ Mobile responsive design works
+☐ All links work correctly
+
+🎨 CUSTOMIZATION:
+-----------------
+To change colors, edit styles.css:
+:root {
+    --primary-orange: #FF6B35;   ← Change this
+    --primary-blue: #2563EB;     ← Change this
+    --accent-cream: #FFF8E7;     ← Change this
+}
+
+📞 SUPPORT:
+-----------
+If you encounter any issues:
+- Email: ruraltechstore@gmail.com
+- Check browser console (F12) for errors
+- Review README.md for detailed documentation
+
+═══════════════════════════════════════════════════════════════════════
+  © 2025 Rural Tech Store | Ready to Empower Rural India! 🌾
+═══════════════════════════════════════════════════════════════════════

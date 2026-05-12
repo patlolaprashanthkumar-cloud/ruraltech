@@ -1,0 +1,300 @@
+╔═══════════════════════════════════════════════════════════════════════╗
+║                                                                       ║
+║              📋 HOSTINGER UPLOAD CHECKLIST 📋                        ║
+║          Print this and check off as you complete!                   ║
+║                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+
+PRE-UPLOAD PREPARATION:
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Read QUICK_START.txt
+☐  Read DEPLOYMENT_GUIDE.txt
+☐  Have Hostinger login credentials ready
+☐  Know your domain name
+☐  Have access to ruraltechstore@gmail.com
+
+
+STEP 1: ACCESS HOSTINGER
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Login to Hostinger control panel
+☐  Navigate to "Files" section
+☐  Click "File Manager"
+☐  Wait for File Manager to load
+
+
+STEP 2: UPLOAD TO public_html
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Navigate to public_html folder
+☐  Upload index.html
+☐  Upload styles.css
+☐  Upload script.js
+☐  Upload thank-you.html
+☐  Verify all 4 files are uploaded
+
+
+STEP 3: UPLOAD LOGO TO ROOT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Click "Back" or ".." to go to root directory
+☐  Upload rts.jpeg
+☐  Verify rts.jpeg is in root (NOT in public_html)
+
+
+STEP 4: EDIT INDEX.HTML
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  In public_html, right-click index.html
+☐  Select "Edit" or "Code Editor"
+☐  Press Ctrl+F (or Cmd+F on Mac) to Find
+☐  Search for: yourdomain.com
+☐  Replace with your actual domain (3 times)
+☐  Example: Change to ruraltechstore.com
+☐  Save the file
+
+
+STEP 5: SET PERMISSIONS (OPTIONAL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Right-click index.html → Permissions → 644
+☐  Right-click styles.css → Permissions → 644
+☐  Right-click script.js → Permissions → 644
+☐  Right-click thank-you.html → Permissions → 644
+☐  Right-click rts.jpeg → Permissions → 644
+
+
+STEP 6: INITIAL TEST
+━━━━━━━━━━━━━━━━━━━━
+
+☐  Open your domain in browser
+☐  Website loads (no errors)
+☐  Logo appears at top center
+☐  Scroll down - all sections visible
+☐  Partner logos appear
+☐  Forms are visible
+
+
+STEP 7: TEST CONTACT FORM
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Fill out Contact Form
+☐  Enter test name
+☐  Enter test email
+☐  Enter test message
+☐  Click "Send Message"
+☐  Redirected to thank-you page
+☐  Check ruraltechstore@gmail.com
+☐  Email received (check spam if not in inbox)
+
+
+STEP 8: ACTIVATE FORMSUBMIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Check ruraltechstore@gmail.com inbox
+☐  Find email from FormSubmit.co
+☐  Click activation/confirmation link
+☐  See confirmation message
+☐  (Only needed ONCE, first time)
+
+
+STEP 9: TEST AFFILIATE FORM
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Scroll to Affiliate Join Form
+☐  Fill out all fields
+☐  Click "Join Now"
+☐  Redirected to thank-you page
+☐  Email received at ruraltechstore@gmail.com
+
+
+STEP 10: TEST FEEDBACK FORM
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Scroll to Feedback Form
+☐  Fill out name
+☐  Select star rating (click on stars)
+☐  Enter comments
+☐  Click "Submit Feedback"
+☐  Redirected to thank-you page
+☐  Email received at ruraltechstore@gmail.com
+
+
+STEP 11: TEST PARTNER LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Click Amazon logo → Opens amazon.in
+☐  Click Flipkart logo → Opens flipkart.com
+☐  Click Reliance logo → Opens reliancedigital.in
+☐  Click Tata CLiQ logo → Opens tatacliq.com
+☐  Click Samsung logo → Opens samsung.com
+☐  Click Lenovo logo → Opens lenovo.com
+☐  Click Xiaomi logo → Opens mi.com
+☐  Click Realme logo → Opens realme.com
+
+
+STEP 12: TEST MOBILE VIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Open on phone or use browser DevTools
+☐  Logo appears (smaller on mobile)
+☐  Text is readable
+☐  Forms work on mobile
+☐  Buttons are clickable
+☐  No horizontal scrolling
+☐  All sections stack vertically
+
+
+STEP 13: TEST NAVIGATION
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Click "Get Started" button
+☐  Smoothly scrolls to contact section
+☐  Scroll down to footer
+☐  Click "Contact" link → Scrolls to forms
+☐  Click "Services" link → Scrolls to services
+☐  Click "Partners" link → Scrolls to partners
+
+
+STEP 14: TEST ANIMATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Scroll down slowly
+☐  Service cards fade in
+☐  Partner cards fade in
+☐  Form cards fade in
+☐  Scroll to bottom
+☐  Scroll-to-top button appears
+☐  Click scroll-to-top → Returns to top
+
+
+STEP 15: BROWSER TESTING
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Test in Chrome
+☐  Test in Firefox
+☐  Test in Safari
+☐  Test in Edge
+☐  Test on iPhone
+☐  Test on Android
+
+
+STEP 16: FINAL VERIFICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  All images load
+☐  No broken links
+☐  No console errors (F12)
+☐  Forms send emails
+☐  Thank you page works
+☐  Footer displays correctly
+☐  Colors look good
+☐  Text is readable
+☐  Professional appearance
+
+
+STEP 17: SEO CHECK
+━━━━━━━━━━━━━━━━━━
+
+☐  Page title shows in browser tab
+☐  Meta description present
+☐  No duplicate content
+☐  All images have alt text
+☐  Links have meaningful text
+
+
+STEP 18: PERFORMANCE CHECK
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Page loads in under 3 seconds
+☐  Images load quickly
+☐  No lag when scrolling
+☐  Forms respond instantly
+☐  Animations are smooth
+
+
+TROUBLESHOOTING CHECKLIST:
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If logo doesn't show:
+☐  Verify rts.jpeg is in ROOT directory
+☐  Check file name is exactly "rts.jpeg"
+☐  Try clearing browser cache
+
+If forms don't work:
+☐  Check FormSubmit activation email
+☐  Verify email address is correct
+☐  Check internet connection
+☐  Look for errors in browser console
+
+If page looks broken:
+☐  Verify ALL files uploaded to public_html
+☐  Check styles.css is in same folder as index.html
+☐  Clear browser cache and refresh
+☐  Check file permissions (644)
+
+If thank-you page not found:
+☐  Verify thank-you.html is in public_html
+☐  Check domain URL in forms is correct
+☐  Make sure no typos in _next URLs
+
+
+POST-LAUNCH CHECKLIST:
+━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Share website URL with team
+☐  Test from external network
+☐  Monitor email inbox for submissions
+☐  Create bookmark for easy access
+☐  Document any customizations made
+☐  Keep backup of files
+
+
+OPTIONAL ENHANCEMENTS:
+━━━━━━━━━━━━━━━━━━━━━━
+
+☐  Add Google Analytics tracking
+☐  Set up custom domain email
+☐  Add SSL certificate (HTTPS)
+☐  Submit to Google Search Console
+☐  Create sitemap
+☐  Add favicon
+
+
+═══════════════════════════════════════════════════════════════════════
+
+🎉 CONGRATULATIONS!
+
+If all checkboxes are ticked, your Rural Tech Store website is:
+  ✅ Fully deployed
+  ✅ Professionally functional
+  ✅ Ready to serve customers
+  ✅ Receiving form submissions
+  ✅ Mobile-optimized
+  ✅ Production-quality
+
+═══════════════════════════════════════════════════════════════════════
+
+📧 Need Help?
+   Email: ruraltechstore@gmail.com
+
+🌐 Share Your Success!
+   Your website is now live and empowering Rural India! 🌾
+
+═══════════════════════════════════════════════════════════════════════
+
+Date Deployed: _______________
+
+Deployed By: __________________
+
+Domain: _______________________
+
+Notes: ___________________________________________________________
+
+__________________________________________________________________
+
+__________________________________________________________________
+
+═══════════════════════════════════════════════════════════════════════

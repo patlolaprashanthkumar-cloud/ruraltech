@@ -1,0 +1,246 @@
+╔═══════════════════════════════════════════════════════════════════════╗
+║                                                                       ║
+║           RURAL TECH STORE - WEBSITE VISUAL STRUCTURE                ║
+║                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+
+🖥️  WEBSITE SECTIONS (Top to Bottom):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  1. HERO SECTION (Orange to Blue Gradient)                      ┃
+┃  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
+┃                                                                  ┃
+┃                    ┌─────────────────┐                          ┃
+┃                    │                 │                          ┃
+┃                    │   [RTS LOGO]    │  ← Circular, 200×200px  ┃
+┃                    │    rts.jpeg     │                          ┃
+┃                    │                 │                          ┃
+┃                    └─────────────────┘                          ┃
+┃                                                                  ┃
+┃               RURAL TECH STORE                                  ┃
+┃        (Large, Bold, White Text)                                ┃
+┃                                                                  ┃
+┃     Digital & Technical Services for Every Village              ┃
+┃            (Subtitle, White Text)                               ┃
+┃                                                                  ┃
+┃                  [ Get Started ]                                ┃
+┃                   (White Button)                                ┃
+┃                                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  2. ABOUT SECTION (Cream Background)                            ┃
+┃  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
+┃                                                                  ┃
+┃           Empowering Rural India Digitally                      ┃
+┃           (Large Heading, Dark Blue)                            ┃
+┃                                                                  ┃
+┃    We bring cutting-edge technology and digital services        ┃
+┃    to every village, bridging the urban-rural divide...         ┃
+┃    (Centered paragraph text)                                    ┃
+┃                                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  3. SERVICES SECTION (White Background)                         ┃
+┃  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
+┃                                                                  ┃
+┃                    Our Services                                 ┃
+┃                  (Large Heading)                                ┃
+┃                                                                  ┃
+┃  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐            ┃
+┃  │     📱      │  │     💻      │  │     🌐      │            ┃
+┃  │   Mobile &  │  │  Computer   │  │   Digital   │            ┃
+┃  │   Gadgets   │  │  Services   │  │  Solutions  │            ┃
+┃  │             │  │             │  │             │            ┃
+┃  │  Description│  │  Description│  │  Description│            ┃
+┃  └─────────────┘  └─────────────┘  └─────────────┘            ┃
+┃                                                                  ┃
+┃  ┌─────────────┐                                                ┃
+┃  │     📚      │                                                ┃
+┃  │   Digital   │                                                ┃
+┃  │  Education  │                                                ┃
+┃  │             │                                                ┃
+┃  │  Description│                                                ┃
+┃  └─────────────┘                                                ┃
+┃                                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  4. PARTNERS SECTION (Cream Gradient)                           ┃
+┃  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
+┃                                                                  ┃
+┃              Our Trusted Partners                               ┃
+┃         (Large Heading, Dark Blue)                              ┃
+┃                                                                  ┃
+┃    We collaborate with leading brands to bring you              ┃
+┃         authentic products and services                         ┃
+┃                                                                  ┃
+┃  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐          ┃
+┃  │ Amazon  │  │Flipkart │  │Reliance │  │Tata CLiQ│          ┃
+┃  └─────────┘  └─────────┘  └─────────┘  └─────────┘          ┃
+┃                                                                  ┃
+┃  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐          ┃
+┃  │ Samsung │  │ Lenovo  │  │ Xiaomi  │  │ Realme  │          ┃
+┃  └─────────┘  └─────────┘  └─────────┘  └─────────┘          ┃
+┃                                                                  ┃
+┃         (Each logo is clickable link)                           ┃
+┃                                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  5. FORMS SECTION (White Background)                            ┃
+┃  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
+┃                                                                  ┃
+┃                   Get In Touch                                  ┃
+┃                  (Large Heading)                                ┃
+┃                                                                  ┃
+┃  ┌──────────────────┐ ┌──────────────────┐ ┌─────────────────┐┃
+┃  │  Contact Us      │ │ Join as Affiliate│ │ Share Feedback  │┃
+┃  │  ──────────────  │ │  ──────────────  │ │  ─────────────  │┃
+┃  │                  │ │                  │ │                 │┃
+┃  │ Name:            │ │ Name:            │ │ Name:           │┃
+┃  │ [___________]    │ │ [___________]    │ │ [___________]   │┃
+┃  │                  │ │                  │ │                 │┃
+┃  │ Email:           │ │ Email:           │ │ Email:          │┃
+┃  │ [___________]    │ │ [___________]    │ │ [___________]   │┃
+┃  │                  │ │                  │ │                 │┃
+┃  │ Message:         │ │ Phone:           │ │ Rating:         │┃
+┃  │ [___________]    │ │ [___________]    │ │ ⭐-⭐⭐⭐⭐⭐      │┃
+┃  │ [___________]    │ │                  │ │                 │┃
+┃  │ [___________]    │ │ Business:        │ │ Comments:       │┃
+┃  │                  │ │ [___________]    │ │ [___________]   │┃
+┃  │                  │ │                  │ │ [___________]   │┃
+┃  │ [Send Message]   │ │ Message:         │ │                 │┃
+┃  │  (Blue Button)   │ │ [___________]    │ │ [Submit]        │┃
+┃  │                  │ │                  │ │  (Blue Button)  │┃
+┃  │                  │ │ [Join Now]       │ │                 │┃
+┃  │                  │ │  (Blue Button)   │ │                 │┃
+┃  └──────────────────┘ └──────────────────┘ └─────────────────┘┃
+┃                                                                  ┃
+┃        (All forms send to: ruraltechstore@gmail.com)            ┃
+┃                                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  6. FOOTER (Dark Blue Background, White Text)                   ┃
+┃  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
+┃                                                                  ┃
+┃     © 2025 Rural Tech Store | Empowering Rural India Digitally  ┃
+┃                                                                  ┃
+┃              Contact  |  Services  |  Partners                  ┃
+┃                   (Clickable Links)                             ┃
+┃                                                                  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+═══════════════════════════════════════════════════════════════════════
+
+
+📱 MOBILE VIEW (< 768px):
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+All sections stack vertically:
+• Logo: 150px (smaller)
+• Service cards: 1 column
+• Partner logos: 1 column
+• Forms: 1 column (full width)
+• Everything scales perfectly!
+
+
+🎨 COLOR SCHEME:
+━━━━━━━━━━━━━━━━
+
+🟠 Primary Orange: #FF6B35  (Hero gradient, buttons, accents)
+🔵 Primary Blue:   #2563EB  (Hero gradient, buttons, text)
+🟡 Accent Cream:   #FFF8E7  (About section, highlights)
+🔷 Dark Blue:      #1E3A8A  (Headings, footer)
+⚪ White:          #FFFFFF  (Cards, backgrounds)
+⚫ Text Gray:      #6B7280  (Body text)
+
+
+✨ INTERACTIVE ELEMENTS:
+━━━━━━━━━━━━━━━━━━━━━━━
+
+🖱️  Hover Effects:
+   • Service cards lift up
+   • Partner logos lift up
+   • Form cards lift up
+   • Buttons get darker
+   • Links change color
+
+📜 Scroll Effects:
+   • Smooth scrolling
+   • Cards fade in when visible
+   • Scroll-to-top button appears
+
+📝 Form Interactions:
+   • Fields highlight on focus
+   • Star rating visual feedback
+   • Submit button shows "Sending..."
+   • Redirects to thank-you page
+
+
+🔗 ALL LINKS:
+━━━━━━━━━━━━━
+
+Internal:
+• Get Started → #contact (Contact form)
+• Footer Contact → #contact
+• Footer Services → #services
+• Footer Partners → #partners
+
+External (Partner Logos):
+• Amazon → https://www.amazon.in
+• Flipkart → https://www.flipkart.com
+• Reliance Digital → https://www.reliancedigital.in
+• Tata CLiQ → https://www.tatacliq.com
+• Samsung → https://www.samsung.com
+• Lenovo → https://www.lenovo.com
+• Xiaomi → https://www.mi.com
+• Realme → https://www.realme.com
+
+
+📧 EMAIL FLOW:
+━━━━━━━━━━━━━
+
+1. User fills form
+2. User clicks submit
+3. FormSubmit.co processes
+4. Email sent to ruraltechstore@gmail.com
+5. User redirected to thank-you.html
+6. Success message shown
+
+
+🎯 NAVIGATION FLOW:
+━━━━━━━━━━━━━━━━━━
+
+Homepage → Click "Get Started" → Scrolls to Forms
+           Click Partner Logo → Opens brand website
+           Click Footer Link → Scrolls to section
+           Submit Form → Goes to Thank You page
+Thank You → Click "Back to Home" → Returns to Homepage
+
+
+═══════════════════════════════════════════════════════════════════════
+
+🎉 THE COMPLETE PACKAGE:
+
+✅ Beautiful hero section with your logo
+✅ Professional service showcase
+✅8 trusted partner logos (all linked)
+✅ 3 fully functional forms
+✅ Responsive on ALL devices
+✅ Modern rural color palette
+✅ Smooth animations
+✅ No code to write - just upload!
+
+═══════════════════════════════════════════════════════════════════════
