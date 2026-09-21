@@ -13,7 +13,7 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About Us' },
     { id: 'services', label: 'Services' },
-    { id: 'franchise', label: 'Franchise' },
+    { id: 'franchise', label: 'Partner Plans' },
     { id: 'contact', label: 'Contact' },
   ];
 

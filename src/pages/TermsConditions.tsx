@@ -29,15 +29,15 @@ export default function TermsConditions() {
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Franchise Partnership</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Partner Network</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  When you register as a franchise partner:
+                  When you register as a network partner:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
                   <li>You must provide accurate and complete information during registration</li>
                   <li>You are responsible for maintaining the confidentiality of your account credentials</li>
                   <li>You must be at least 18 years old and have the legal capacity to enter into agreements</li>
-                  <li>You agree to pay all applicable fees as per your chosen franchise plan</li>
+                  <li>You agree to pay all applicable fees as per your chosen partner plan</li>
                   <li>You will comply with all applicable laws and regulations in your operations</li>
                 </ul>
               </div>
@@ -45,7 +45,7 @@ export default function TermsConditions() {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Service Usage</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  As a franchise partner, you agree to:
+                  As a network partner, you agree to:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
                   <li>Use our services only for lawful purposes</li>
@@ -63,7 +63,7 @@ export default function TermsConditions() {
                   Payment terms include:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                  <li>Franchise fees are non-refundable except as specified in our Refund Policy</li>
+                  <li>Partner registration fees are non-refundable except as specified in our Refund Policy</li>
                   <li>All fees are quoted in Indian Rupees (INR)</li>
                   <li>GST and other applicable taxes are additional unless stated otherwise</li>
                   <li>Commission rates may be revised with prior notice</li>
@@ -81,7 +81,7 @@ export default function TermsConditions() {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Territory Rights</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Territory rights, where applicable, are granted on a non-exclusive basis unless specifically stated in your franchise agreement. We reserve the right to operate or appoint other partners in any territory.
+                  Territory rights, where applicable, are granted on a non-exclusive basis unless specifically stated in your partner agreement. We reserve the right to operate or appoint other partners in any territory.
                 </p>
               </div>
 

@@ -70,7 +70,7 @@ export default function About() {
                   Rural Tech Store Services is a pioneering initiative under the Digital India Mission, dedicated to bridging the digital divide between urban and rural India. We provide comprehensive digital service platforms that enable entrepreneurs to establish and operate successful businesses in their local communities.
                 </p>
                 <p>
-                  With a presence across multiple states and thousands of active partners, we have become the trusted platform for rural digital entrepreneurship. Our franchise model requires minimal investment but offers maximum opportunity, making it accessible to aspiring entrepreneurs from all backgrounds.
+                  With a presence across multiple states and thousands of active partners, we have become the trusted platform for rural digital entrepreneurship. Our partner ecosystem offers a comprehensive digital platform that provides maximum opportunity, making it accessible to aspiring entrepreneurs from all backgrounds.
                 </p>
                 <p>
                   We offer over 100 essential services ranging from utility payments and financial transactions to government scheme access and e-commerce facilitation. Our partners act as vital digital touchpoints in their communities, enabling access to services that would otherwise be difficult or impossible to obtain in rural areas.

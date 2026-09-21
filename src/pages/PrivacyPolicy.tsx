@@ -48,7 +48,7 @@ export default function PrivacyPolicy() {
                   We use the information we collect to:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                  <li>Process your franchise applications and registrations</li>
+                  <li>Process your partner applications and registrations</li>
                   <li>Provide and maintain our services</li>
                   <li>Process transactions and send related information</li>
                   <li>Send administrative information, updates, and security alerts</li>
@@ -67,7 +67,7 @@ export default function PrivacyPolicy() {
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
                   <li>Service providers who perform services on our behalf</li>
                   <li>Government authorities as required by law</li>
-                  <li>Business partners for franchise operations</li>
+                  <li>Business partners for network operations</li>
                   <li>Professional advisors such as lawyers and accountants</li>
                 </ul>
                 <p className="text-gray-700 leading-relaxed mt-4">

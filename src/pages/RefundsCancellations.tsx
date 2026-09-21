@@ -24,21 +24,19 @@ export default function RefundsCancellations() {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Overview</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  This Refund and Cancellation Policy outlines the terms and conditions for refunds and cancellations of franchise partnerships with Rural Tech Store Services. Please read this policy carefully before making any payment.
+                  This Refund and Cancellation Policy outlines the terms and conditions for refunds and cancellations of partner network registrations with Rural Tech Store Services. Please read this policy carefully before making any payment.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Franchise Registration Fees</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Partner Registration Fees</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Franchise registration fees include:
+                  Partner registration fees include:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                  <li>AGENT: ₹1,000</li>
-                  <li>Distributor: ₹5,000</li>
-                  <li>Super Distributor: ₹10,000</li>
-                  <li>White Label: ₹80,000 + GST</li>
-                  <li>Full Package: ₹2,36,000</li>
+                  <li>AGENT: ₹10,000</li>
+                  <li>Distributor: ₹25,000</li>
+                  <li>Super Distributor: ₹50,000</li>
                 </ul>
               </div>
 
@@ -111,7 +109,7 @@ export default function RefundsCancellations() {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Service Cancellation by Company</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  We reserve the right to cancel your franchise partnership if:
+                  We reserve the right to cancel your partner network registration if:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
                   <li>You violate our Terms and Conditions</li>
@@ -127,7 +125,7 @@ export default function RefundsCancellations() {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Transaction Refunds</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  For customer transactions processed through your franchise:
+                  For customer transactions processed through your partner account:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
                   <li>Failed transactions will be automatically refunded within 7 business days</li>

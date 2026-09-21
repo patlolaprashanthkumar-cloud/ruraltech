@@ -216,7 +216,7 @@ export default function Services() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-all hover:scale-105 shadow-lg"
               >
-                Apply for Franchise
+                Become a Partner
               </a>
               <a
                 href="https://login.ruraltechstore.com/"

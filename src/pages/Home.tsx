@@ -4,56 +4,36 @@ export default function Home() {
   const franchiseCards = [
     {
       title: 'AGENT',
-      price: '₹3,000',
+      price: '₹10,000',
       features: [
-        'Access 100+ services',
-        'Personal wallet dashboard',
-        'Commission on every transaction',
-        'Complete training provided'
+        'Individual entrepreneurs',
+        'Digital service operators',
+        'Local retailers',
+        'Local business owners',
+        'Multiple digital service offerings'
       ],
       popular: false
     },
     {
-      title: 'Distributor',
-      price: '₹5,000',
+      title: 'DISTRIBUTOR',
+      price: '₹25,000',
       features: [
-        'Manage unlimited retailers',
-        'Earn team commission',
-        'Priority support',
-        'Marketing materials'
+        'Agent/Retailer network development',
+        'Market-level business expansion',
+        'Managing Agents/Retailers',
+        'Multiple service categories'
       ],
       popular: true
     },
     {
-      title: 'Super Distributor',
-      price: '₹10,000',
+      title: 'SUPER DISTRIBUTOR',
+      price: '₹50,000',
       features: [
-        'Manage unlimited users',
-        'District or state-level rights',
-        'Highest commission rates',
-        'Exclusive territory rights'
-      ],
-      popular: false
-    },
-    {
-      title: 'White Label',
-      price: '₹80,000 + GST',
-      features: [
-        'Own brand name',
-        'All services included',
-        'Complete customization',
-        'Dedicated support team'
-      ],
-      popular: false
-    },
-    {
-      title: 'Full Package',
-      price: '₹2,36,000',
-      features: [
-        'All services included',
-        'Courier delivery services',
-        'Complete infrastructure',
-        'Premium partnership'
+        'Larger distribution network',
+        'Managing multiple Distributors',
+        'Managing Agents/Retailers',
+        'Wider geographical expansion',
+        'Larger partner ecosystem development'
       ],
       popular: false
     }
@@ -81,7 +61,7 @@ export default function Home() {
               Empowering Every Village with Digital Services
             </p>
             <p className="text-base md:text-lg max-w-4xl mx-auto mb-10 leading-relaxed">
-              Rural Tech Store Services is a Digital India initiative that empowers entrepreneurs to start their own rural digital service centers. With a small investment of ₹1,000–₹5,000, partners can offer 100+ services including recharge, bill payments, government schemes, travel bookings, tax services, and online courses — bringing digital access, employment, and entrepreneurship to every village in India.
+              Rural Tech Store Services is a Digital India initiative that empowers entrepreneurs to start their own rural digital service centers. Rural Tech Store brings multiple digital, financial, travel, insurance, loan, credit, and shopping services together through an integrated partner ecosystem, bringing digital access, employment, and entrepreneurship to every village in India.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -90,7 +70,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-all hover:scale-105 shadow-lg"
               >
-                Apply for Franchise
+                Become a Partner
                 <ArrowRight className="ml-2" size={20} />
               </a>
               <button
@@ -129,10 +109,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Choose Your Franchise Plan
+              CURRENT PARTNER PLANS
             </h2>
             <p className="text-lg text-gray-600">
-              Start your entrepreneurial journey with flexible investment options
+              Flexible partnership options to match your business goals
             </p>
           </div>
 

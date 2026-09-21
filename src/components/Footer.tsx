@@ -55,7 +55,7 @@ export default function Footer({ setCurrentPage }: FooterProps) {
                   onClick={() => handlePageClick('franchise')}
                   className="text-gray-400 hover:text-blue-400 transition-colors text-sm"
                 >
-                  Franchise
+                  Partner Plans
                 </button>
               </li>
             </ul>
