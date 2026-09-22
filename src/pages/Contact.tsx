@@ -55,11 +55,11 @@ export default function Contact() {
 
   return (
     <div className="overflow-hidden">
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-warm-white text-deep-teal py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-secondary-text max-w-3xl mx-auto">
               Get in touch with us for any queries, support, or partnership opportunities
             </p>
           </div>
@@ -70,26 +70,26 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Get In Touch</h2>
+              <h2 className="text-3xl font-bold text-deep-teal mb-8">Get In Touch</h2>
 
               <div className="space-y-6 mb-8">
                 <div className="flex items-start">
-                  <div className="bg-blue-100 p-3 rounded-lg mr-4">
-                    <MapPin className="text-blue-600" size={24} />
+                  <div className="bg-light-green p-3 rounded-lg mr-4">
+                    <MapPin className="text-deep-teal" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">Address</h3>
-                    <p className="text-gray-600">Hyderabad, Telangana</p>
+                    <h3 className="text-lg font-semibold text-deep-teal mb-1">Address</h3>
+                    <p className="text-secondary-text">Hyderabad, Telangana</p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
                   <div className="bg-green-100 p-3 rounded-lg mr-4">
-                    <Phone className="text-green-600" size={24} />
+                    <Phone className="text-rural-green" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone</h3>
-                    <a href="tel:+919492036363" className="text-gray-600 hover:text-blue-600">
+                    <h3 className="text-lg font-semibold text-deep-teal mb-1">Phone</h3>
+                    <a href="tel:+919492036363" className="text-secondary-text hover:text-deep-teal">
                       +91-9492036363
                     </a>
                   </div>
@@ -97,25 +97,25 @@ export default function Contact() {
 
                 <div className="flex items-start">
                   <div className="bg-orange-100 p-3 rounded-lg mr-4">
-                    <Mail className="text-orange-600" size={24} />
+                    <Mail className="text-primary-orange" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
-                    <a href="mailto:ruraltechstore@gmail.com" className="text-gray-600 hover:text-blue-600">
+                    <h3 className="text-lg font-semibold text-deep-teal mb-1">Email</h3>
+                    <a href="mailto:ruraltechstore@gmail.com" className="text-secondary-text hover:text-deep-teal">
                       ruraltechstore@gmail.com
                     </a>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Connect With Us</h3>
+              <div className="bg-light-green rounded-lg p-6">
+                <h3 className="text-xl font-bold text-deep-teal mb-4">Connect With Us</h3>
                 <div className="flex space-x-4">
                   <a
                     href="https://facebook.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition-colors"
+                    className="bg-deep-teal text-white p-3 rounded-lg hover:bg-dark-teal transition-colors"
                     aria-label="Facebook"
                   >
                     <Facebook size={24} />
@@ -133,7 +133,7 @@ export default function Contact() {
                     href="https://linkedin.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-blue-700 text-white p-3 rounded-lg hover:bg-blue-800 transition-colors"
+                    className="bg-dark-teal text-white p-3 rounded-lg hover:bg-blue-800 transition-colors"
                     aria-label="LinkedIn"
                   >
                     <Linkedin size={24} />
@@ -142,7 +142,7 @@ export default function Contact() {
                     href="https://wa.me/919492036363"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-green-500 text-white p-3 rounded-lg hover:bg-green-600 transition-colors"
+                    className="bg-rural-green text-white p-3 rounded-lg hover:bg-rural-green transition-colors"
                     aria-label="WhatsApp"
                   >
                     <MessageCircle size={24} />
@@ -150,9 +150,9 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="mt-8 bg-blue-50 rounded-lg p-6 border border-blue-200">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Business Hours</h3>
-                <div className="space-y-2 text-gray-700">
+              <div className="mt-8 bg-tech-bg rounded-lg p-6 border border-blue-200">
+                <h3 className="text-xl font-bold text-deep-teal mb-3">Business Hours</h3>
+                <div className="space-y-2 text-secondary-text">
                   <p className="flex justify-between">
                     <span className="font-medium">Monday - Friday:</span>
                     <span>9:00 AM - 6:00 PM</span>
@@ -166,19 +166,19 @@ export default function Contact() {
                     <span>Closed</span>
                   </p>
                 </div>
-                <p className="mt-4 text-sm text-gray-600">
+                <p className="mt-4 text-sm text-secondary-text">
                   Support available 24/7 for existing partners
                 </p>
               </div>
             </div>
 
             <div>
-              <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-200">
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
+              <div className="bg-white rounded-xl shadow-lg p-8 border border-border-color">
+                <h2 className="text-3xl font-bold text-deep-teal mb-6">Send Us a Message</h2>
 
                 <form onSubmit={handleSubmit}>
                   <div className="mb-6">
-                    <label className="block text-gray-700 font-medium mb-2" htmlFor="name">
+                    <label className="block text-secondary-text font-medium mb-2" htmlFor="name">
                       Name *
                     </label>
                     <input
@@ -188,13 +188,13 @@ export default function Contact() {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"
+                      className="w-full px-4 py-3 border border-border-color rounded-lg focus:ring-2 focus:ring-deep-teal focus:border-transparent outline-none"
                       placeholder="Your full name"
                     />
                   </div>
 
                   <div className="mb-6">
-                    <label className="block text-gray-700 font-medium mb-2" htmlFor="email">
+                    <label className="block text-secondary-text font-medium mb-2" htmlFor="email">
                       Email *
                     </label>
                     <input
@@ -204,13 +204,13 @@ export default function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"
+                      className="w-full px-4 py-3 border border-border-color rounded-lg focus:ring-2 focus:ring-deep-teal focus:border-transparent outline-none"
                       placeholder="your.email@example.com"
                     />
                   </div>
 
                   <div className="mb-6">
-                    <label className="block text-gray-700 font-medium mb-2" htmlFor="mobile">
+                    <label className="block text-secondary-text font-medium mb-2" htmlFor="mobile">
                       Mobile Number *
                     </label>
                     <input
@@ -221,13 +221,13 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       pattern="[0-9]{10}"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"
+                      className="w-full px-4 py-3 border border-border-color rounded-lg focus:ring-2 focus:ring-deep-teal focus:border-transparent outline-none"
                       placeholder="10-digit mobile number"
                     />
                   </div>
 
                   <div className="mb-6">
-                    <label className="block text-gray-700 font-medium mb-2" htmlFor="message">
+                    <label className="block text-secondary-text font-medium mb-2" htmlFor="message">
                       Message *
                     </label>
                     <textarea
@@ -237,7 +237,7 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       rows={6}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none resize-none"
+                      className="w-full px-4 py-3 border border-border-color rounded-lg focus:ring-2 focus:ring-deep-teal focus:border-transparent outline-none resize-none"
                       placeholder="How can we help you?"
                     />
                   </div>
@@ -251,7 +251,7 @@ export default function Contact() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full bg-deep-teal text-white py-3 rounded-lg font-semibold hover:bg-dark-teal transition-colors flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {isSubmitting ? 'Sending...' : 'Send Message'}
                     <Send className="ml-2" size={20} />
@@ -263,13 +263,13 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-light-green">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-deep-teal mb-4">
               Visit Our Office
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-secondary-text">
               We're located in the heart of Hyderabad, Telangana
             </p>
           </div>
@@ -278,7 +278,7 @@ export default function Contact() {
             <div className="aspect-video bg-gray-200 flex items-center justify-center">
               <div className="text-center p-8">
                 <MapPin className="mx-auto text-gray-400 mb-4" size={48} />
-                <p className="text-gray-600 text-lg">
+                <p className="text-secondary-text text-lg">
                   <strong>Rural Tech Store Services</strong>
                   <br />
                   Hyderabad, Telangana

@@ -31,9 +31,9 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
             <img
               src="/logo.jpg"
               alt="Rural Tech Store Logo"
-              className="h-16 w-16 md:h-20 md:w-20 rounded-full object-cover border-2 border-blue-600 shadow-md"
+              className="h-16 w-16 md:h-20 md:w-20 rounded-full object-cover border-2 border-deep-teal shadow-md"
             />
-            <h1 className="text-xl md:text-2xl font-bold text-blue-600">
+            <h1 className="text-xl md:text-2xl font-bold text-deep-teal">
               Rural Tech Store Services
             </h1>
           </div>
@@ -45,8 +45,8 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
                 onClick={() => handleNavClick(item.id)}
                 className={`${
                   currentPage === item.id
-                    ? 'text-blue-600 border-b-2 border-blue-600'
-                    : 'text-gray-700 hover:text-blue-600'
+                    ? 'text-deep-teal border-b-2 border-deep-teal'
+                    : 'text-secondary-text hover:text-deep-teal'
                 } px-3 py-2 text-sm font-medium transition-colors`}
               >
                 {item.label}
@@ -56,7 +56,7 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
               href="https://login.ruraltechstore.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
+              className="bg-primary-orange text-deep-teal px-4 py-2 rounded-lg text-sm font-medium hover:bg-orange-hover transition-colors shadow-sm"
             >
               Sign In
             </a>
@@ -65,7 +65,7 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-blue-600"
+              className="text-secondary-text hover:text-deep-teal"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -74,7 +74,7 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200">
+        <div className="md:hidden bg-white border-t border-border-color">
           <div className="px-2 pt-2 pb-3 space-y-1">
             {navItems.map((item) => (
               <button
@@ -82,8 +82,8 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
                 onClick={() => handleNavClick(item.id)}
                 className={`${
                   currentPage === item.id
-                    ? 'bg-blue-50 text-blue-600'
-                    : 'text-gray-700 hover:bg-gray-50'
+                    ? 'bg-tech-bg text-deep-teal'
+                    : 'text-secondary-text hover:bg-light-green'
                 } block w-full text-left px-3 py-2 text-base font-medium rounded-md`}
               >
                 {item.label}
@@ -93,7 +93,7 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
               href="https://login.ruraltechstore.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full text-center bg-blue-600 text-white px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700"
+              className="block w-full text-center bg-primary-orange text-deep-teal px-3 py-2 rounded-md text-base font-bold hover:bg-orange-hover shadow-sm"
             >
               Sign In
             </a>

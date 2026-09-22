@@ -3,14 +3,14 @@ import { Shield } from 'lucide-react';
 export default function PrivacyPolicy() {
   return (
     <div className="overflow-hidden">
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-warm-white text-deep-teal py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="inline-flex items-center justify-center w-20 h-20 bg-white/10 rounded-full mb-6">
               <Shield size={40} />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Privacy Policy</h1>
-            <p className="text-xl text-blue-100">
+            <p className="text-xl text-secondary-text">
               Last Updated: January 2025
             </p>
           </div>
@@ -22,18 +22,18 @@ export default function PrivacyPolicy() {
           <div className="prose prose-lg max-w-none">
             <div className="space-y-8">
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Introduction</h2>
-                <p className="text-gray-700 leading-relaxed">
+                <h2 className="text-2xl font-bold text-deep-teal mb-4">Introduction</h2>
+                <p className="text-secondary-text leading-relaxed">
                   Rural Tech Store Services ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Information We Collect</h2>
-                <p className="text-gray-700 leading-relaxed mb-4">
+                <h2 className="text-2xl font-bold text-deep-teal mb-4">Information We Collect</h2>
+                <p className="text-secondary-text leading-relaxed mb-4">
                   We collect information that you provide directly to us, including:
                 </p>
-                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                <ul className="list-disc pl-6 space-y-2 text-secondary-text">
                   <li>Personal identification information (name, email address, phone number)</li>
                   <li>Business information (company name, address, GST number if applicable)</li>
                   <li>Financial information for transaction processing</li>
@@ -43,11 +43,11 @@ export default function PrivacyPolicy() {
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">How We Use Your Information</h2>
-                <p className="text-gray-700 leading-relaxed mb-4">
+                <h2 className="text-2xl font-bold text-deep-teal mb-4">How We Use Your Information</h2>
+                <p className="text-secondary-text leading-relaxed mb-4">
                   We use the information we collect to:
                 </p>
-                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                <ul className="list-disc pl-6 space-y-2 text-secondary-text">
                   <li>Process your partner applications and registrations</li>
                   <li>Provide and maintain our services</li>
                   <li>Process transactions and send related information</li>
@@ -60,34 +60,34 @@ export default function PrivacyPolicy() {
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Information Sharing</h2>
-                <p className="text-gray-700 leading-relaxed mb-4">
+                <h2 className="text-2xl font-bold text-deep-teal mb-4">Information Sharing</h2>
+                <p className="text-secondary-text leading-relaxed mb-4">
                   We may share your information with:
                 </p>
-                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                <ul className="list-disc pl-6 space-y-2 text-secondary-text">
                   <li>Service providers who perform services on our behalf</li>
                   <li>Government authorities as required by law</li>
                   <li>Business partners for network operations</li>
                   <li>Professional advisors such as lawyers and accountants</li>
                 </ul>
-                <p className="text-gray-700 leading-relaxed mt-4">
+                <p className="text-secondary-text leading-relaxed mt-4">
                   We do not sell your personal information to third parties.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Data Security</h2>
-                <p className="text-gray-700 leading-relaxed">
+                <h2 className="text-2xl font-bold text-deep-teal mb-4">Data Security</h2>
+                <p className="text-secondary-text leading-relaxed">
                   We implement appropriate technical and organizational security measures to protect your personal information. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Your Rights</h2>
-                <p className="text-gray-700 leading-relaxed mb-4">
+                <h2 className="text-2xl font-bold text-deep-teal mb-4">Your Rights</h2>
+                <p className="text-secondary-text leading-relaxed mb-4">
                   You have the right to:
                 </p>
-                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                <ul className="list-disc pl-6 space-y-2 text-secondary-text">
                   <li>Access your personal information</li>
                   <li>Correct inaccurate or incomplete information</li>
                   <li>Request deletion of your information</li>
@@ -98,26 +98,26 @@ export default function PrivacyPolicy() {
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Cookies</h2>
-                <p className="text-gray-700 leading-relaxed">
+                <h2 className="text-2xl font-bold text-deep-teal mb-4">Cookies</h2>
+                <p className="text-secondary-text leading-relaxed">
                   We use cookies and similar tracking technologies to track activity on our website and store certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Changes to This Policy</h2>
-                <p className="text-gray-700 leading-relaxed">
+                <h2 className="text-2xl font-bold text-deep-teal mb-4">Changes to This Policy</h2>
+                <p className="text-secondary-text leading-relaxed">
                   We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
                 </p>
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Contact Us</h2>
-                <p className="text-gray-700 leading-relaxed">
+                <h2 className="text-2xl font-bold text-deep-teal mb-4">Contact Us</h2>
+                <p className="text-secondary-text leading-relaxed">
                   If you have any questions about this Privacy Policy, please contact us:
                 </p>
-                <div className="mt-4 bg-gray-50 rounded-lg p-6">
-                  <p className="text-gray-700">
+                <div className="mt-4 bg-light-green rounded-lg p-6">
+                  <p className="text-secondary-text">
                     <strong>Rural Tech Store Services</strong><br />
                     Hyderabad, Telangana<br />
                     Email: ruraltechstore@gmail.com<br />

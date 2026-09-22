@@ -47,11 +47,11 @@ export default function About() {
 
   return (
     <div className="overflow-hidden">
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-warm-white text-deep-teal py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">About Us</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-deep-teal font-medium max-w-3xl mx-auto">
               Leading the digital transformation of rural India through entrepreneurship and innovation
             </p>
           </div>
@@ -62,10 +62,10 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-deep-teal mb-6">
                 Who We Are
               </h2>
-              <div className="space-y-4 text-gray-700 leading-relaxed">
+              <div className="space-y-4 text-secondary-text leading-relaxed">
                 <p>
                   Rural Tech Store Services is a pioneering initiative under the Digital India Mission, dedicated to bridging the digital divide between urban and rural India. We provide comprehensive digital service platforms that enable entrepreneurs to establish and operate successful businesses in their local communities.
                 </p>
@@ -81,34 +81,34 @@ export default function About() {
               </div>
             </div>
             <div className="grid grid-cols-2 gap-6">
-              <div className="bg-blue-50 rounded-lg p-6 text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">5,000+</div>
-                <div className="text-gray-700 font-medium">Active Partners</div>
+              <div className="bg-tech-bg rounded-lg p-6 text-center">
+                <div className="text-4xl font-bold text-deep-teal mb-2">5,000+</div>
+                <div className="text-secondary-text font-medium">Active Partners</div>
               </div>
               <div className="bg-green-50 rounded-lg p-6 text-center">
-                <div className="text-4xl font-bold text-green-600 mb-2">100+</div>
-                <div className="text-gray-700 font-medium">Services</div>
+                <div className="text-4xl font-bold text-rural-green mb-2">100+</div>
+                <div className="text-secondary-text font-medium">Services</div>
               </div>
               <div className="bg-orange-50 rounded-lg p-6 text-center">
-                <div className="text-4xl font-bold text-orange-600 mb-2">1L+</div>
-                <div className="text-gray-700 font-medium">Monthly Transactions</div>
+                <div className="text-4xl font-bold text-primary-orange mb-2">1L+</div>
+                <div className="text-secondary-text font-medium">Monthly Transactions</div>
               </div>
               <div className="bg-purple-50 rounded-lg p-6 text-center">
                 <div className="text-4xl font-bold text-purple-600 mb-2">20+</div>
-                <div className="text-gray-700 font-medium">States Covered</div>
+                <div className="text-secondary-text font-medium">States Covered</div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-light-green">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-deep-teal mb-4">
               Our Values
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-secondary-text">
               The principles that guide everything we do
             </p>
           </div>
@@ -119,11 +119,11 @@ export default function About() {
                 key={index}
                 className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-shadow"
               >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4">
-                  <value.icon className="text-blue-600" size={32} />
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-light-green rounded-full mb-4">
+                  <value.icon className="text-deep-teal" size={32} />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{value.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{value.description}</p>
+                <h3 className="text-xl font-bold text-deep-teal mb-3">{value.title}</h3>
+                <p className="text-secondary-text leading-relaxed">{value.description}</p>
               </div>
             ))}
           </div>
@@ -133,10 +133,10 @@ export default function About() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-deep-teal mb-4">
               Our Partnerships
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+            <p className="text-lg text-secondary-text max-w-3xl mx-auto mb-8">
               Rural Tech Store Services works with both government and private sector organizations to promote digital inclusion, rural employment, and entrepreneurship under the Digital India Mission.
             </p>
           </div>
@@ -145,28 +145,28 @@ export default function About() {
             {partners.map((partner, index) => (
               <div
                 key={index}
-                className="bg-gray-50 rounded-lg p-6 flex items-center justify-center text-center hover:bg-blue-50 transition-colors"
+                className="bg-light-green rounded-lg p-6 flex items-center justify-center text-center hover:bg-tech-bg transition-colors"
               >
-                <span className="text-lg font-semibold text-gray-700">{partner}</span>
+                <span className="text-lg font-semibold text-secondary-text">{partner}</span>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+      <section className="py-20 bg-warm-white text-deep-teal">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Join the Digital Revolution
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-secondary-text mb-8 max-w-3xl mx-auto">
             Become a part of India's largest rural digital services network and empower your community
           </p>
           <a
             href="https://cfpe.me/ruraltechstoreservices"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-all hover:scale-105 shadow-lg"
+            className="inline-flex items-center justify-center bg-white text-deep-teal px-8 py-3 rounded-lg font-semibold hover:bg-tech-bg transition-all hover:scale-105 shadow-lg"
           >
             Apply Now
           </a>

@@ -24,14 +24,14 @@ export default function Franchise() {
     },
     {
       title: 'DISTRIBUTOR',
-      price: '₹25,000',
+      price: '₹15,000',
       description: 'Designed for partners who want to develop and manage a network of Agents/Retailers within their assigned market and build a larger service business.',
       paymentLink: 'https://cfpe.me/ruraltechstoreservices',
       popular: true
     },
     {
-      title: 'SUPER DISTRIBUTOR',
-      price: '₹50,000',
+      title: 'Super Agent',
+      price: '₹25,000',
       description: 'Designed for partners who want to develop a larger distribution network, manage multiple Distributors/Agents, and expand across a wider geographical market.',
       paymentLink: 'https://cfpe.me/ruraltechstoreservices'
     }
@@ -111,7 +111,7 @@ export default function Franchise() {
     },
     {
       title: 'Distributor',
-      price: '₹25,000',
+      price: '₹15,000',
       icon: Building,
       focus: [
         'Agent/Retailer network development',
@@ -121,8 +121,8 @@ export default function Franchise() {
       ]
     },
     {
-      title: 'Super Distributor',
-      price: '₹50,000',
+      title: 'Super Agent',
+      price: '₹25,000',
       icon: Map,
       focus: [
         'Larger distribution network',
@@ -186,25 +186,25 @@ export default function Franchise() {
   return (
     <div className="overflow-hidden">
       {/* 1. Partner Plans Hero */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-warm-white text-deep-teal py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Become a Franchise Partner</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-secondary-text max-w-3xl mx-auto">
               Join India's largest rural digital services network and start your entrepreneurial journey today
             </p>
           </div>
         </div>
       </section>
 
-      {/* 2. Agent / Distributor / Super Distributor Pricing */}
-      <section className="py-20 bg-gray-50">
+      {/* 2. Agent / Distributor / Super Agent Pricing */}
+      <section className="py-20 bg-light-green">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-deep-teal mb-4">
               CURRENT PARTNER PLANS
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-secondary-text">
               Flexible partnership options to match your business goals
             </p>
           </div>
@@ -213,21 +213,24 @@ export default function Franchise() {
             {franchiseOptions.map((option, index) => (
               <div
                 key={index}
-                className={`relative bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all ${
-                  option.popular ? 'border-2 border-blue-600' : 'border border-gray-200'
+                className={`relative bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all cursor-pointer hover:-translate-y-1 ${
+                  option.popular ? 'border-2 border-deep-teal' : 'border border-border-color'
                 }`}
+                onClick={() => {
+                  document.getElementById('registration-form')?.scrollIntoView({ behavior: 'smooth' });
+                }}
               >
                 {option.popular && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
+                  <div className="absolute top-4 right-4">
+                    <span className="bg-deep-teal text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm">
                       Most Popular
                     </span>
                   </div>
                 )}
                 <div className="text-center mb-6">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{option.title}</h3>
-                  <div className="text-3xl font-bold text-blue-600 mb-4">{option.price}</div>
-                  <p className="text-gray-600 text-sm text-left">{option.description}</p>
+                  <h3 className="text-2xl font-bold text-deep-teal mb-2">{option.title}</h3>
+                  <div className="text-3xl font-bold text-deep-teal mb-4">{option.price}</div>
+                  <p className="text-secondary-text text-sm text-left">{option.description}</p>
                 </div>
               </div>
             ))}
@@ -242,26 +245,26 @@ export default function Franchise() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-deep-teal mb-4">
               Expanded Service Ecosystem
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg text-secondary-text max-w-3xl mx-auto">
               Rural Tech Store provides access to multiple service categories through dedicated service platforms and logins.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {serviceCategories.map((category, index) => (
-              <div key={index} className="bg-gray-50 rounded-xl p-8 border border-gray-100 hover:shadow-lg transition-all group">
-                <div className="inline-flex items-center justify-center w-14 h-14 bg-blue-100 rounded-lg mb-6 group-hover:scale-110 transition-transform">
-                  <category.icon className="text-blue-600" size={28} />
+              <div key={index} className="bg-light-green rounded-xl p-8 border border-border-color hover:shadow-lg transition-all group">
+                <div className="inline-flex items-center justify-center w-14 h-14 bg-light-green rounded-lg mb-6 group-hover:scale-110 transition-transform">
+                  <category.icon className="text-deep-teal" size={28} />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">{category.title}</h3>
+                <h3 className="text-xl font-bold text-deep-teal mb-4">{category.title}</h3>
                 <ul className="space-y-2">
                   {category.services.map((service, idx) => (
                     <li key={idx} className="flex items-start">
-                      <CheckCircle className="text-green-500 mr-2 flex-shrink-0 mt-1" size={16} />
-                      <span className="text-gray-700 text-sm">{service}</span>
+                      <CheckCircle className="text-rural-green mr-2 flex-shrink-0 mt-1" size={16} />
+                      <span className="text-secondary-text text-sm">{service}</span>
                     </li>
                   ))}
                 </ul>
@@ -285,9 +288,9 @@ export default function Franchise() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {loginPlatforms.map((platform, index) => (
-              <div key={index} className="bg-blue-800 rounded-lg p-6 hover:bg-blue-700 transition-colors border border-blue-700">
+              <div key={index} className="bg-blue-800 rounded-lg p-6 hover:bg-dark-teal transition-colors border border-blue-700">
                 <div className="flex items-center mb-4">
-                  <div className="bg-blue-600 p-3 rounded-lg mr-4">
+                  <div className="bg-deep-teal p-3 rounded-lg mr-4">
                     <platform.icon size={24} className="text-white" />
                   </div>
                   <h3 className="text-lg font-bold">{platform.title}</h3>
@@ -300,17 +303,17 @@ export default function Franchise() {
       </section>
 
       {/* 5. Partner Benefits */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-light-green">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-deep-teal mb-4">
               Partner Benefits
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {benefits.map((benefit, index) => (
-              <div key={index} className="flex items-center bg-white p-4 rounded-lg shadow-sm border border-gray-100">
-                <CheckCircle className="text-blue-600 mr-3 flex-shrink-0" size={20} />
+              <div key={index} className="flex items-center bg-white p-4 rounded-lg shadow-sm border border-border-color">
+                <CheckCircle className="text-deep-teal mr-3 flex-shrink-0" size={20} />
                 <span className="text-gray-800 font-medium text-sm">{benefit}</span>
               </div>
             ))}
@@ -322,30 +325,30 @@ export default function Franchise() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-deep-teal mb-4">
               Partner Levels Compared
             </h2>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {partnerLevels.map((level, index) => (
-              <div key={index} className="bg-white border-2 border-gray-100 rounded-2xl p-8 hover:border-blue-500 transition-colors">
+              <div key={index} className="bg-white border-2 border-border-color rounded-2xl p-8 hover:border-blue-500 transition-colors">
                 <div className="flex items-center justify-between mb-6">
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900">{level.title}</h3>
-                    <div className="text-xl font-semibold text-blue-600 mt-1">{level.price}</div>
+                    <h3 className="text-2xl font-bold text-deep-teal">{level.title}</h3>
+                    <div className="text-xl font-semibold text-deep-teal mt-1">{level.price}</div>
                   </div>
-                  <div className="bg-blue-50 p-3 rounded-full">
-                    <level.icon className="text-blue-600" size={28} />
+                  <div className="bg-tech-bg p-3 rounded-full">
+                    <level.icon className="text-deep-teal" size={28} />
                   </div>
                 </div>
                 
-                <h4 className="font-semibold text-gray-900 mb-4 border-b pb-2">Primary Focus</h4>
+                <h4 className="font-semibold text-deep-teal mb-4 border-b pb-2">Primary Focus</h4>
                 <ul className="space-y-3">
                   {level.focus.map((item, idx) => (
                     <li key={idx} className="flex items-start">
                       <ArrowRight className="text-gray-400 mr-2 flex-shrink-0 mt-1" size={16} />
-                      <span className="text-gray-700 text-sm">{item}</span>
+                      <span className="text-secondary-text text-sm">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -356,12 +359,12 @@ export default function Franchise() {
       </section>
 
       {/* 7. Value Proposition */}
-      <section className="py-16 bg-blue-50 border-t border-b border-blue-100">
+      <section className="py-16 bg-tech-bg border-t border-b border-blue-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl font-bold text-deep-teal mb-6">
             Multiple Services. One Partner Ecosystem.
           </h2>
-          <p className="text-lg text-gray-700 mb-8">
+          <p className="text-lg text-secondary-text mb-8">
             Rural Tech Store brings multiple digital, financial, travel, insurance, loan, credit, and shopping services together through an integrated partner ecosystem.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm font-medium text-gray-800">
@@ -380,17 +383,17 @@ export default function Franchise() {
       {/* 8. Partner Network CTA */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-deep-teal mb-6">
             Join the Rural Tech Store Partner Network
           </h2>
-          <p className="text-xl text-gray-600 mb-10">
+          <p className="text-xl text-secondary-text mb-10">
             Start offering multiple digital and business services through the Rural Tech Store partner ecosystem.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="#apply" className="px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors shadow-lg">
+            <a href="#apply" className="px-8 py-4 bg-deep-teal text-white font-bold rounded-lg hover:bg-dark-teal transition-colors shadow-lg">
               Become a Partner
             </a>
-            <button onClick={() => window.scrollTo({ top: 500, behavior: 'smooth' })} className="px-8 py-4 bg-white text-blue-600 border-2 border-blue-600 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-sm">
+            <button onClick={() => window.scrollTo({ top: 500, behavior: 'smooth' })} className="px-8 py-4 bg-white text-deep-teal border-2 border-deep-teal font-bold rounded-lg hover:bg-tech-bg transition-colors shadow-sm">
               View Partner Plans
             </button>
           </div>
@@ -398,13 +401,13 @@ export default function Franchise() {
       </section>
 
       {/* 9. Apply Now Form */}
-      <section id="apply" className="py-20 bg-gray-50">
+      <section id="apply" className="py-20 bg-light-green">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-deep-teal mb-4">
               Apply Now
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-secondary-text">
               Fill out the form below and we'll get back to you within 24 hours
             </p>
           </div>
@@ -412,7 +415,7 @@ export default function Franchise() {
           <form onSubmit={handleSubmit} className="bg-white rounded-xl shadow-lg p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label className="block text-gray-700 font-medium mb-2" htmlFor="fullName">
+                <label className="block text-secondary-text font-medium mb-2" htmlFor="fullName">
                   Full Name *
                 </label>
                 <input
@@ -422,13 +425,13 @@ export default function Franchise() {
                   value={formData.fullName}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"
+                  className="w-full px-4 py-3 border border-border-color rounded-lg focus:ring-2 focus:ring-deep-teal focus:border-transparent outline-none"
                   placeholder="Enter your full name"
                 />
               </div>
 
               <div>
-                <label className="block text-gray-700 font-medium mb-2" htmlFor="mobile">
+                <label className="block text-secondary-text font-medium mb-2" htmlFor="mobile">
                   Mobile Number *
                 </label>
                 <input
@@ -439,13 +442,13 @@ export default function Franchise() {
                   onChange={handleChange}
                   required
                   pattern="[0-9]{10}"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"
+                  className="w-full px-4 py-3 border border-border-color rounded-lg focus:ring-2 focus:ring-deep-teal focus:border-transparent outline-none"
                   placeholder="10-digit mobile number"
                 />
               </div>
 
               <div>
-                <label className="block text-gray-700 font-medium mb-2" htmlFor="email">
+                <label className="block text-secondary-text font-medium mb-2" htmlFor="email">
                   Email ID *
                 </label>
                 <input
@@ -455,13 +458,13 @@ export default function Franchise() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"
+                  className="w-full px-4 py-3 border border-border-color rounded-lg focus:ring-2 focus:ring-deep-teal focus:border-transparent outline-none"
                   placeholder="your.email@example.com"
                 />
               </div>
 
               <div>
-                <label className="block text-gray-700 font-medium mb-2" htmlFor="state">
+                <label className="block text-secondary-text font-medium mb-2" htmlFor="state">
                   State *
                 </label>
                 <input
@@ -471,13 +474,13 @@ export default function Franchise() {
                   value={formData.state}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"
+                  className="w-full px-4 py-3 border border-border-color rounded-lg focus:ring-2 focus:ring-deep-teal focus:border-transparent outline-none"
                   placeholder="Your state"
                 />
               </div>
 
               <div>
-                <label className="block text-gray-700 font-medium mb-2" htmlFor="district">
+                <label className="block text-secondary-text font-medium mb-2" htmlFor="district">
                   District *
                 </label>
                 <input
@@ -487,13 +490,13 @@ export default function Franchise() {
                   value={formData.district}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"
+                  className="w-full px-4 py-3 border border-border-color rounded-lg focus:ring-2 focus:ring-deep-teal focus:border-transparent outline-none"
                   placeholder="Your district"
                 />
               </div>
 
               <div>
-                <label className="block text-gray-700 font-medium mb-2" htmlFor="role">
+                <label className="block text-secondary-text font-medium mb-2" htmlFor="role">
                   Preferred Role *
                 </label>
                 <select
@@ -502,17 +505,17 @@ export default function Franchise() {
                   value={formData.role}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"
+                  className="w-full px-4 py-3 border border-border-color rounded-lg focus:ring-2 focus:ring-deep-teal focus:border-transparent outline-none"
                 >
                   <option value="AGENT">AGENT (₹10,000)</option>
-                  <option value="Distributor">Distributor (₹25,000)</option>
-                  <option value="Super Distributor">Super Distributor (₹50,000)</option>
+                  <option value="Distributor">Distributor (₹15,000)</option>
+                  <option value="Super Agent">Super Agent (₹25,000)</option>
                 </select>
               </div>
             </div>
 
             <div className="mt-6">
-              <label className="block text-gray-700 font-medium mb-2" htmlFor="message">
+              <label className="block text-secondary-text font-medium mb-2" htmlFor="message">
                 Message (Optional)
               </label>
               <textarea
@@ -521,7 +524,7 @@ export default function Franchise() {
                 value={formData.message}
                 onChange={handleChange}
                 rows={4}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none resize-none"
+                className="w-full px-4 py-3 border border-border-color rounded-lg focus:ring-2 focus:ring-deep-teal focus:border-transparent outline-none resize-none"
                 placeholder="Tell us about your business goals..."
               />
             </div>
@@ -536,7 +539,7 @@ export default function Franchise() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-deep-teal text-white py-3 rounded-lg font-semibold hover:bg-dark-teal transition-colors flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? 'Submitting...' : 'Register Now'}
                 <ArrowRight className="ml-2" size={20} />
@@ -547,7 +550,7 @@ export default function Franchise() {
       </section>
 
       {/* 10. Service Disclaimer */}
-      <section className="py-8 bg-gray-900 text-gray-400 text-sm">
+      <section className="py-8 bg-deep-teal text-gray-400 text-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <p>
             Service availability, commissions, transaction limits, eligibility, KYC requirements, and partner benefits may vary depending on the service, location, applicable regulations, and respective service provider.
