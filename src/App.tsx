@@ -10,6 +10,7 @@ import TermsConditions from './pages/TermsConditions';
 import RefundsCancellations from './pages/RefundsCancellations';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import ContactPopup from './components/ContactPopup';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -43,6 +44,7 @@ function App() {
       <main>{renderPage()}</main>
       <Footer setCurrentPage={setCurrentPage} />
       <WhatsAppButton />
+      <ContactPopup />
     </div>
   );
 }

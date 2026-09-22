@@ -36,7 +36,7 @@ export default function RefundsCancellations() {
                 <ul className="list-disc pl-6 space-y-2 text-secondary-text">
                   <li>AGENT: ₹10,000</li>
                   <li>Distributor: ₹15,000</li>
-                  <li>Super Agent: ₹15,000</li>
+                  <li>Super Distributor: ₹25,000</li>
                 </ul>
               </div>
 

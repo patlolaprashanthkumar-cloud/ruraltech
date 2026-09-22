@@ -85,16 +85,16 @@ export default function About() {
                 <div className="text-4xl font-bold text-deep-teal mb-2">5,000+</div>
                 <div className="text-secondary-text font-medium">Active Partners</div>
               </div>
-              <div className="bg-green-50 rounded-lg p-6 text-center">
+              <div className="bg-light-green rounded-lg p-6 text-center">
                 <div className="text-4xl font-bold text-rural-green mb-2">100+</div>
                 <div className="text-secondary-text font-medium">Services</div>
               </div>
-              <div className="bg-orange-50 rounded-lg p-6 text-center">
+              <div className="bg-soft-cream rounded-lg p-6 text-center">
                 <div className="text-4xl font-bold text-primary-orange mb-2">1L+</div>
                 <div className="text-secondary-text font-medium">Monthly Transactions</div>
               </div>
-              <div className="bg-purple-50 rounded-lg p-6 text-center">
-                <div className="text-4xl font-bold text-purple-600 mb-2">20+</div>
+              <div className="bg-soft-cream rounded-lg p-6 text-center">
+                <div className="text-4xl font-bold text-primary-orange mb-2">20+</div>
                 <div className="text-secondary-text font-medium">States Covered</div>
               </div>
             </div>

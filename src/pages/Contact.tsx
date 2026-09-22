@@ -84,7 +84,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-green-100 p-3 rounded-lg mr-4">
+                  <div className="bg-light-green p-3 rounded-lg mr-4">
                     <Phone className="text-rural-green" size={24} />
                   </div>
                   <div>
@@ -96,7 +96,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-orange-100 p-3 rounded-lg mr-4">
+                  <div className="bg-soft-cream p-3 rounded-lg mr-4">
                     <Mail className="text-primary-orange" size={24} />
                   </div>
                   <div>
@@ -133,7 +133,7 @@ export default function Contact() {
                     href="https://linkedin.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-dark-teal text-white p-3 rounded-lg hover:bg-blue-800 transition-colors"
+                    className="bg-dark-teal text-white p-3 rounded-lg hover:bg-dark-teal transition-colors"
                     aria-label="LinkedIn"
                   >
                     <Linkedin size={24} />
@@ -150,7 +150,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="mt-8 bg-tech-bg rounded-lg p-6 border border-blue-200">
+              <div className="mt-8 bg-tech-bg rounded-lg p-6 border border-border-color">
                 <h3 className="text-xl font-bold text-deep-teal mb-3">Business Hours</h3>
                 <div className="space-y-2 text-secondary-text">
                   <p className="flex justify-between">
@@ -243,7 +243,7 @@ export default function Contact() {
                   </div>
 
                   {submitError && (
-                    <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg text-red-700 text-sm">
+                    <div className="mb-4 p-3 bg-soft-cream border border-border-color rounded-lg text-deep-teal text-sm">
                       {submitError}
                     </div>
                   )}
@@ -275,9 +275,9 @@ export default function Contact() {
           </div>
 
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-            <div className="aspect-video bg-gray-200 flex items-center justify-center">
+            <div className="aspect-video bg-border-color flex items-center justify-center">
               <div className="text-center p-8">
-                <MapPin className="mx-auto text-gray-400 mb-4" size={48} />
+                <MapPin className="mx-auto text-secondary-text mb-4" size={48} />
                 <p className="text-secondary-text text-lg">
                   <strong>Rural Tech Store Services</strong>
                   <br />

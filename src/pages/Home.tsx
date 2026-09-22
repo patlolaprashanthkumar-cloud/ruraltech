@@ -26,8 +26,8 @@ export default function Home() {
       popular: true
     },
     {
-      title: 'SUPER AGENT',
-      price: '₹15,000',
+      title: 'SUPER DISTRIBUTOR',
+      price: '₹25,000',
       features: [
         'Larger distribution network',
         'Managing multiple Distributors',

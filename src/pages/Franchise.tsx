@@ -30,7 +30,7 @@ export default function Franchise() {
       popular: true
     },
     {
-      title: 'Super Agent',
+      title: 'Super Distributor',
       price: '₹25,000',
       description: 'Designed for partners who want to develop a larger distribution network, manage multiple Distributors/Agents, and expand across a wider geographical market.',
       paymentLink: 'https://cfpe.me/ruraltechstoreservices'
@@ -121,7 +121,7 @@ export default function Franchise() {
       ]
     },
     {
-      title: 'Super Agent',
+      title: 'Super Distributor',
       price: '₹25,000',
       icon: Map,
       focus: [
@@ -197,7 +197,7 @@ export default function Franchise() {
         </div>
       </section>
 
-      {/* 2. Agent / Distributor / Super Agent Pricing */}
+      {/* 2. Agent / Distributor / Super Distributor Pricing */}
       <section className="py-20 bg-light-green">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -235,7 +235,7 @@ export default function Franchise() {
               </div>
             ))}
           </div>
-          <div className="text-center text-sm text-gray-500">
+          <div className="text-center text-sm text-secondary-text">
             * Applicable taxes, wherever required, will be charged separately.
           </div>
         </div>
@@ -275,27 +275,27 @@ export default function Franchise() {
       </section>
 
       {/* 4. Dedicated Service Platforms */}
-      <section className="py-20 bg-blue-900 text-white">
+      <section className="py-20 bg-dark-teal text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Dedicated Service Platforms
             </h2>
-            <p className="text-lg text-blue-200 max-w-3xl mx-auto">
+            <p className="text-lg text-light-green max-w-3xl mx-auto">
               Partners can access different service verticals through dedicated service modules/logins, subject to eligibility.
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {loginPlatforms.map((platform, index) => (
-              <div key={index} className="bg-blue-800 rounded-lg p-6 hover:bg-dark-teal transition-colors border border-blue-700">
+              <div key={index} className="bg-dark-teal rounded-lg p-6 hover:bg-dark-teal transition-colors border border-deep-teal">
                 <div className="flex items-center mb-4">
                   <div className="bg-deep-teal p-3 rounded-lg mr-4">
                     <platform.icon size={24} className="text-white" />
                   </div>
                   <h3 className="text-lg font-bold">{platform.title}</h3>
                 </div>
-                <p className="text-blue-200 text-sm">{platform.description}</p>
+                <p className="text-light-green text-sm">{platform.description}</p>
               </div>
             ))}
           </div>
@@ -314,7 +314,7 @@ export default function Franchise() {
             {benefits.map((benefit, index) => (
               <div key={index} className="flex items-center bg-white p-4 rounded-lg shadow-sm border border-border-color">
                 <CheckCircle className="text-deep-teal mr-3 flex-shrink-0" size={20} />
-                <span className="text-gray-800 font-medium text-sm">{benefit}</span>
+                <span className="text-secondary-text font-medium text-sm">{benefit}</span>
               </div>
             ))}
           </div>
@@ -332,7 +332,7 @@ export default function Franchise() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {partnerLevels.map((level, index) => (
-              <div key={index} className="bg-white border-2 border-border-color rounded-2xl p-8 hover:border-blue-500 transition-colors">
+              <div key={index} className="bg-white border-2 border-border-color rounded-2xl p-8 hover:border-primary-orange transition-colors">
                 <div className="flex items-center justify-between mb-6">
                   <div>
                     <h3 className="text-2xl font-bold text-deep-teal">{level.title}</h3>
@@ -347,7 +347,7 @@ export default function Franchise() {
                 <ul className="space-y-3">
                   {level.focus.map((item, idx) => (
                     <li key={idx} className="flex items-start">
-                      <ArrowRight className="text-gray-400 mr-2 flex-shrink-0 mt-1" size={16} />
+                      <ArrowRight className="text-secondary-text mr-2 flex-shrink-0 mt-1" size={16} />
                       <span className="text-secondary-text text-sm">{item}</span>
                     </li>
                   ))}
@@ -359,7 +359,7 @@ export default function Franchise() {
       </section>
 
       {/* 7. Value Proposition */}
-      <section className="py-16 bg-tech-bg border-t border-b border-blue-100">
+      <section className="py-16 bg-tech-bg border-t border-b border-border-color">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-deep-teal mb-6">
             Multiple Services. One Partner Ecosystem.
@@ -367,7 +367,7 @@ export default function Franchise() {
           <p className="text-lg text-secondary-text mb-8">
             Rural Tech Store brings multiple digital, financial, travel, insurance, loan, credit, and shopping services together through an integrated partner ecosystem.
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm font-medium text-gray-800">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm font-medium text-secondary-text">
             <div className="p-4 bg-white rounded-lg shadow-sm">Multiple Service Categories</div>
             <div className="p-4 bg-white rounded-lg shadow-sm">Dedicated Service Platforms</div>
             <div className="p-4 bg-white rounded-lg shadow-sm">Centralized Business Monitoring</div>
@@ -509,7 +509,7 @@ export default function Franchise() {
                 >
                   <option value="AGENT">AGENT (₹10,000)</option>
                   <option value="Distributor">Distributor (₹15,000)</option>
-                  <option value="Super Agent">Super Agent (₹25,000)</option>
+                  <option value="Super Distributor">Super Distributor (₹25,000)</option>
                 </select>
               </div>
             </div>
@@ -531,7 +531,7 @@ export default function Franchise() {
 
             <div className="mt-8">
               {submitError && (
-                <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg text-red-700 text-sm">
+                <div className="mb-4 p-3 bg-soft-cream border border-border-color rounded-lg text-deep-teal text-sm">
                   {submitError}
                 </div>
               )}
@@ -550,7 +550,7 @@ export default function Franchise() {
       </section>
 
       {/* 10. Service Disclaimer */}
-      <section className="py-8 bg-deep-teal text-gray-400 text-sm">
+      <section className="py-8 bg-deep-teal text-secondary-text text-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <p>
             Service availability, commissions, transaction limits, eligibility, KYC requirements, and partner benefits may vary depending on the service, location, applicable regulations, and respective service provider.

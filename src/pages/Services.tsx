@@ -135,14 +135,14 @@ export default function Services() {
 
   const getColorClasses = (color: string) => {
     const colors: { [key: string]: { bg: string; text: string; border: string } } = {
-      blue: { bg: 'bg-tech-bg', text: 'text-deep-teal', border: 'border-blue-200' },
-      green: { bg: 'bg-green-50', text: 'text-rural-green', border: 'border-green-200' },
-      orange: { bg: 'bg-orange-50', text: 'text-primary-orange', border: 'border-orange-200' },
-      purple: { bg: 'bg-purple-50', text: 'text-purple-600', border: 'border-purple-200' },
-      red: { bg: 'bg-red-50', text: 'text-red-600', border: 'border-red-200' },
-      teal: { bg: 'bg-teal-50', text: 'text-teal-600', border: 'border-teal-200' },
-      indigo: { bg: 'bg-indigo-50', text: 'text-indigo-600', border: 'border-indigo-200' },
-      yellow: { bg: 'bg-yellow-50', text: 'text-yellow-600', border: 'border-yellow-200' }
+      blue: { bg: 'bg-tech-bg', text: 'text-deep-teal', border: 'border-border-color' },
+      green: { bg: 'bg-light-green', text: 'text-rural-green', border: 'border-border-color' },
+      orange: { bg: 'bg-soft-cream', text: 'text-primary-orange', border: 'border-border-color' },
+      purple: { bg: 'bg-soft-cream', text: 'text-primary-orange', border: 'border-border-color' },
+      red: { bg: 'bg-soft-cream', text: 'text-primary-orange', border: 'border-border-color' },
+      teal: { bg: 'bg-tech-bg', text: 'text-deep-teal', border: 'border-border-color' },
+      indigo: { bg: 'bg-light-green', text: 'text-deep-teal', border: 'border-border-color' },
+      yellow: { bg: 'bg-soft-cream', text: 'text-primary-orange', border: 'border-border-color' }
     };
     return colors[color] || colors.blue;
   };
