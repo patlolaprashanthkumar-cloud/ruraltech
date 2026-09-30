@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsConditions from './pages/TermsConditions';
 import RefundsCancellations from './pages/RefundsCancellations';
+import Careers from './pages/Careers';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import ContactPopup from './components/ContactPopup';
@@ -33,6 +34,8 @@ function App() {
         return <TermsConditions />;
       case 'refunds':
         return <RefundsCancellations />;
+      case 'careers':
+        return <Careers />;
       default:
         return <Home />;
     }

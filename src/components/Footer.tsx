@@ -58,6 +58,14 @@ export default function Footer({ setCurrentPage }: FooterProps) {
                   Partner Plans
                 </button>
               </li>
+              <li>
+                <button
+                  onClick={() => handlePageClick('careers')}
+                  className="text-light-green hover:text-white transition-colors text-sm"
+                >
+                  Careers
+                </button>
+              </li>
             </ul>
           </div>
 

@@ -14,6 +14,7 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
     { id: 'about', label: 'About Us' },
     { id: 'services', label: 'Services' },
     { id: 'franchise', label: 'Partner Plans' },
+    { id: 'careers', label: 'Careers' },
     { id: 'contact', label: 'Contact' },
   ];
 
